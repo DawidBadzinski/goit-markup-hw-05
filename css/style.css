@@ -520,10 +520,11 @@ button:focus {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .email-input::placeholder {
-  color: #fff;
+  color: #ffffff;
 }
 
 .subscribe-button {
