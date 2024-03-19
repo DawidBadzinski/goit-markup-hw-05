@@ -655,7 +655,7 @@ button:focus {
   outline: transparent;
 }
 .input-modal:focus {
-  border: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 .input-modal:focus + svg {
   fill: #4d5ae5;
@@ -705,6 +705,7 @@ button:focus {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 .span-label {
   width: 16px;
