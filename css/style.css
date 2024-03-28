@@ -108,11 +108,12 @@ nav {
   padding: 24px 0;
   display: flex;
   position: relative;
-  color: #404bbf;
+  color: black;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-text::after {
+.link-text:focus::after,
+.link-text:hover::after {
   content: '';
   border-radius: 2px;
   width: 100%;
@@ -149,6 +150,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
+  margin: auto;
 }
 
 .link {
@@ -172,6 +174,7 @@ nav {
   color: #fff;
   max-width: 496px;
   padding-bottom: 48px;
+  margin: auto;
 }
 
 .button {
@@ -182,12 +185,13 @@ nav {
   color: #fff;
   line-height: 1.5;
   cursor: pointer;
-  display: block;
   min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
+  display: block;
 }
 
 button:hover,
