@@ -149,7 +149,7 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 1440px;
+  max-width: auto;
   margin: auto;
 }
 
