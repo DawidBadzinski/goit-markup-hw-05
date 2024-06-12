@@ -196,7 +196,6 @@ nav {
 
 button:hover,
 button:focus {
-  background-color: #404bbf;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -733,6 +732,7 @@ button:focus {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .link-modal {
